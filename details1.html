@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+   
+</head>
+<script>
+function showDiv() {
+   document.getElementById('detailDiv').style.display = "block";
+   document.getElementById('detailDiv2').style.display = "block";
+   document.getElementById('detailDiv').fadeIn(2000);
+   }
+  
+  
+//    
+</script>
+<body>
+    <nav>
+      <img class="logo" src="images\logo2.png" alt="" height="90px">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html"> Services</a>
+            <a href="listing.html">Listing</a>
+            <a href="contac.html"> Contact US</a>
+            <a href="sitemap.html">Credits</a>
+        </div>
+  
+  
+      </nav>
+      <h1 class="listing-head">Details of the properties</h1>
+      <h2 class="house-name">Images for House No. 01</h2>
+<div id="gallery">
+ <figure>
+  <img src="images\house01.jpg" width="700" height="500" alt="House No.1">
+ </figure>
+ <ul>
+    <li><a href="images\house01.jpg"><img src="images\house01small.jpg" width="100" height="75" alt="">
+        <span><img src="images\house01.jpg" width="700" height="500"
+           alt="House No.1"><br>House No.01</span></a>
+        </li>
+   <li><a href="images/livingroom.jpg"><img src="images/livingroom small.jpg" width="100" height="75" alt="">
+   <span><img src="images/livingroom.jpg" width="700" height="500"
+      alt="Living Room for House No.1"><br>Living Room for House No.01</span></a>
+   </li>
+     <li><a href="images/dining room.jpg"><img src="images/dining room small.jpg" width="100px" height="75px" alt="Dining Room for House No.1">
+    <span><img src="images/dining room.jpg" width="700" height="500"alt="Dining Room for House No.1"><br>Dining Room for House No.01</span></a>
+  </li>
+  <li><a href="images/master bedroom.jpg"><img src="images/master bedroom small.jpg" width="100" height="75" alt="Master Bedroom for House No.1">
+    <span><img src="images/master bedroom.jpg" width="700" height="500" alt="Master Bedroom for House No.1"><br>Master Bedroom for House No.01</span></a>
+  </li>
+  <li><a href="images\bedroom1.jpg"><img src="images\bedroom1 small.jpg" width="100" height="75" alt="Second Bedroom for House No.1">
+    <span><img src="images\bedroom1.jpg" width="700" height="500" alt="Second Bedroom for House No.1"><br>Second Bedroom for House No.01</span></a>
+  </li>
+  <li><a href="images\kid room.jpg"><img src="images\kid room small.jpg" width="100" height="75" alt="Kid's Bedroom for House No.1">
+    <span><img src="images\kid room.jpg" width="700" height="500" alt="Kid's Bedroom for House No.1"><br>Kid's Bedroom for House No.01</span></a>
+  </li>
+  <li><a href="images\kitchen.jpg"><img src="images\kitchen small.jpg" width="100" height="75" alt="Kitchen for House No.1">
+    <span><img src="images\kitchen.jpg" width="700" height="500"alt="Kitchen for House No.1"><br>Kitchen for House No.01</span></a>
+  </li>
+  <li><a href="images\bathroom1.jpg"><img src="images\bathroom1small.jpg" width="100" height="75" alt="First Bathroom for House No.1">
+    <span><img src="images\bathroom1.jpg" width="700" height="500" alt="First Bathroom for House No.1"><br>First Bathroom for House No.01</span></a>
+  </li>
+  <li><a href="images\bathroom2.jpg"><img src="images\bathroom2small.jpg" width="100" height="75" alt="Second Bathroom for House No.1">
+    <span><img src="images\bathroom2.jpg" width="700" height="500" alt="Second Bathroom for House No.1"><br>Second Bathroom for House No.01</span></a>
+  </li>
+  <li><a href="images\laundary.jpg"><img src="images\laundarysmall.jpg" width="100" height="75" alt="Laundary Room for House No.01">
+    <span><img src="images\laundary.jpg" width="700" height="500" alt="Laundary Room for House No.01"><br>Laundary Room for House No.01</span></a>
+    </li>
+ </ul>
+</div>
+<div class="detail-table-heading">
+    <h2>If you are interested in this house, you can see more detatiles about it. </h2>
+    <button class="button d-button" onclick="showDiv()"><span>More Details </span></button>
+</div>
+
+
+<div id="detailDiv" class="detail-table">
+   <div class="detail-information-div">
+  <h3 class="location-head">Location:</h3>
+  <p class="location"><a href="https://www.google.com/maps/place/18+Humberview+Rd,+York,+ON+M6S+1W6/@43.654013,-79.489531,17z/data=!3m1!4b1!4m5!3m4!1s0x882b368bfe20e413:0x16b895dfe1514090!8m2!3d43.654013!4d-79.4873423">18 Humberview, Toronto, Ontario, M6S 1W6</a></p>
+  <h3 class="information-head">Property Information:</h3>
+  <p class="information">Located In Prestigious Baby Point, This Is Your Chance To Call This Bloor West Village Home Yours. Featuring A Modern Reno Makeover With Quality Finishes Thru-Out. Custom Kitchen, Led Potlights, Mstr W/Lux Ensuite, 2 W/I Closets On 2nd Flr, Maple Flrs, Heated Sunroom W/Great View. Trex Front Deck (W/Led Lights), Nicely Landscaped And Stone Patio 
+    (Dbls As Parking Pad). Steps Away From The Park, Humber River, Jane Stn, Hwy's, Schools, Restaurants And More!</p>
+  </div>
+<table id="detailDiv2" style="width:70%">
+        <tr>
+          <th>Property ID</th>
+          <th>Style</th>
+          <th>Type</th>
+          <th>Size</th>
+          <th>No of bedrooms</th>
+          <th>No of washrooms</th>
+          <th>No of parking lots</th>
+
+        </tr>
+        <tr>
+          <td>No.01</td>
+          <td>Detached</td>
+          <td>House</td>
+          <td>3200 SF</td>
+          <td>4 </td>
+          <td>3</td>
+          <td>2</td>
+        
+        </tr>
+        
+</table>
+
+</div>
+
+<div class="call-us">
+    <p>Do you want to see more pictures or buy this house? Contact Us Now.</p>
+    <button class="button d-button"><a href="contac.html"><span>Contact Us </span>  </a></button>
+</div>
+
+
+<footer>
+  <div class="footer-div">
+    <div class="footer-nav" >
+      <a href="index.html"><img class="footer-logo" src="images\whitelogo.png" alt="" srcset=""></a>
+
+
+      <a href="index.html">HOME</a>
+      <a href="index.html">SERVICES</a>
+      <a href="listing.html">LISTING</a>
+      <a href="contac.html">CONTACT US</a>
+      <a href="sitemap.html">CREDITS</a>
+
+    </div>
+    <div class="footer-about">
+      <h5>About Us</h5> 
+      <p>
+        Jason Real Estate with more than 15 years of experience is a trusted agent  to help you find the perfect home
+         for you and your family, and provide all the support you need through the whole buying process. Furthermore, if you aim to sell your
+         property Jason real estate gives you a comfort of mind that your property will be sold with the best price. 
+      </p>
+    </div>
+    <div class="footer-contact">
+      <h5>Join US</h5>
+      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://twitter.com/i/flow/single_sign_on"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+
+      <h5>Contact Us</h5>
+      <i class="fa-solid fa-phone"></i>  <a class="footer-num"href="tel:413-980-7865">413-980-7865</a>
+     </div>
+  </div>
+  <hr>
+  <small>Copyright@2022. Jason Real Estate. All rights reserved</small>   
+
+</footer>
+    
+</body>
+</html>

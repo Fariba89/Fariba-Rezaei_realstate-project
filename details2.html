@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+   
+</head>
+<script>
+function showDiv() {
+   document.getElementById('detailDiv').style.display = "block";
+   document.getElementById('detailDiv2').style.display = "block";
+   document.getElementById('detailDiv').fadeIn(2000);
+   }
+
+</script>
+<body>
+    <nav>
+      <img class="logo" src="images\logo2.png" alt="" height="90px">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html"> Services</a>
+            <a href="listing.html">Listing</a>
+            <a href="contac.html"> Contact US</a>
+            <a href="sitemap.html">Credits</a>
+        </div>
+  
+  
+      </nav>
+      <h1 class="listing-head">Details of the properties</h1>
+      <h2 class="house-name">Images for House No. 02</h2>
+
+      <!-- house 2 -->
+<div id="gallery">
+ <figure>
+  <img src="images\house6.jpg" width="700" height="500" alt="House No.2">
+ </figure>
+ <ul>
+    <li><a href="images\house6.jpg"><img src="images\house6small.jpg" width="100" height="75" alt="">
+        <span><img src="images\house6.jpg" width="700" height="500"
+           alt="House No.2"><br>House No.03</span></a>
+        </li>
+   <li><a href="images\living5.jpg"><img src="images\living5small.jpg" width="100" height="75" alt="">
+   <span><img src="images\living5.jpg" width="700" height="500"
+      alt="Living Room for House No.2"><br>Living Room for House No.02</span></a>
+   </li>
+     <li><a href="images\diningroom3.jpg"><img src="images\diningroom3small.jpg" width="100px" height="75px" alt="Dining Room for House No.2">
+    <span><img src="images\diningroom3.jpg" width="700" height="500"alt="Dining Room for House No.2"><br>Dining Room for House No.02</span></a>
+  </li>
+  <li><a href="images\bedroom3.jpg"><img src="images\bedroom3small.jpg" width="100" height="75" alt="Master Bedroom for House No.3">
+    <span><img src="images\bedroom3.jpg" width="700" height="500" alt="Master Bedroom for House No.2"><br>Bedroom for House No.02</span></a>
+  </li>
+  <li><a href="images\yard3b.jpg"><img src="images\yard3bsmall.jpg" width="100" height="75" alt="Back Yard for House No.02">
+    <span><img src="images\yard3b.jpg" width="700" height="500" alt="Back Yard for House No.02"><br>Back Yard for House No.02</span></a>
+  </li>
+  <li><a href="images\yard3.jpg"><img src="images\yard3small.jpg" width="100" height="75" alt="Back Yard for House No.02">
+    <span><img src="images\yard3.jpg" width="700" height="500" alt="Back Yard for House No.02"><br>Back Yard for House No.2</span></a>
+  </li>
+  <li><a href="images\kitchen3.jpg"><img src="images\kitchen3small.jpg" width="100" height="75" alt="Kitchen for House No.2">
+    <span><img src="images\kitchen3.jpg" width="700" height="500"alt="Kitchen for House No.2"><br>Kitchen for House No.02</span></a>
+  </li>
+  <li><a href="images\washroom3.jpg"><img src="images\washroom3small.jpg" width="100" height="75" alt="Bathroom for House No.02">
+    <span><img src="images\washroom3.jpg" width="700" height="500" alt="Bathroom for House No.02"><br>Bathroom for House No.02</span></a>
+  </li>
+  <li><a href="images\laundary3.jpg"><img src="images\laundary3small.jpg" width="100" height="75" alt="Laundary Room for House No.02">
+    <span><img src="images\laundary3.jpg" width="700" height="500" alt="Laundary Room for House No.02"><br>Laundary Room for House No.02</span></a>
+  </li>
+ </ul>
+</div>
+<div class="detail-table-heading">
+    <h2>If you are interested in this house, you can see more detatiles about it. </h2>
+    <button class="button d-button" onclick="showDiv()"><span>More Details </span></button>
+    <div id="detailDiv" class="detail-table">
+      <div class="detail-information-div">
+     <h3 class="location-head">Location:</h3>
+     <p class="location"><a href="https://www.google.com/maps/place/7+Windal+Ave,+York,+ON+M9N+2C2/@43.7056654,-79.5286231,17z/data=!3m1!4b1!4m5!3m4!1s0x882b30dcac4cbd25:0x4af56f33bdbd85ac!8m2!3d43.7056654!4d-79.5264344">7 Windal Ave, Toronto, ON, M9N 2C2</a></p>
+     <h3 class="information-head">Property Information:</h3>
+     <p class="information">Great Investment Opportunity, Legal Multiplex,Huge Lot,Very Convenient 
+       Location Close To 401. 3 Separate Units, Approx 4000 Sq.Ft. Living Space,Upper Floor 3 Bedrooms 2 Full Washrooms, Approx 1600 Sq.Ft. Main Floor 3 Bedrooms 2 Full Washrooms And Fully Renovated Approx 1600 Sq.Ft,Basement 2 Bedrooms & Washroom And Sep Entrance Fully Renovated. All Units Have Own Hydro Meter. 
+       All Units Have Ensuite Washer/Dryer. Plenty Of Parking Space. Future Development Opportunity</p>
+     </div>
+   <table id="detailDiv2" style="width:70%">
+           <tr>
+             <th>Property ID</th>
+             <th>Style</th>
+             <th>Type</th>
+             <th>Size</th>
+             <th>No of bedrooms</th>
+             <th>No of washrooms</th>
+             <th>No of parking lots</th>
+   
+           </tr>
+           <tr>
+             <td>No.02</td>
+             <td>Detached</td>
+             <td>House</td>
+             <td>1200 SF</td>
+             <td>2 </td>
+             <td>1</td>
+             <td>No</td>
+           
+           </tr>
+           
+   </table>
+   
+   </div>
+
+<div class="call-us">
+    <p>Do you want to see more pictures or buy this house? Contact Us Now.</p>
+    <button class="button d-button"><a href="contac.html"><span>Contact Us </span>  </a></button>
+</div>
+
+
+<footer>
+  <div class="footer-div">
+    <div class="footer-nav navd" >
+      <a href="index.html"><img class="footer-logo" src="images\whitelogo.png" alt="" srcset=""></a>
+
+
+      <a href="index.html">HOME</a>
+      <a href="index.html">SERVICES</a>
+      <a href="listing.html">LISTING</a>
+      <a href="contac.html">CONTACT US</a>
+      <a href="sitemap.html">CREDITS</a>
+
+    </div>
+    <div class="footer-about">
+      <h5 class="about-d">About Us</h5> 
+      <p class="parad">
+        Jason Real Estate with more than 15 years of experience is a trusted agent  to help you find the perfect home
+         for you and your family, and provide all the support you need through the whole buying process. Furthermore, if you aim to sell your
+         property Jason real estate gives you a comfort of mind that your property will be sold with the best price. 
+      </p>
+    </div>
+    <div class="footer-contact">
+      <h5>Join US</h5>
+      <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://twitter.com/i/flow/single_sign_on"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+
+      <h5>Contact Us</h5>
+      <i class="fa-solid fa-phone"></i>  <a class="footer-num"href="tel:413-980-7865">413-980-7865</a>
+     </div>
+  </div>
+  <hr>
+  <small class="copy">Copyright@2022. Jason Real Estate. All rights reserved</small>   
+
+</footer>
+    
+</body>
+</html>
